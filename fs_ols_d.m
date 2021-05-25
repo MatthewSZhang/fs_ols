@@ -64,11 +64,11 @@ end
 end
 
 function [Q, R] = f_orth(X)
-% Orthogonalisation of a Matrix by the Classical Gram-Schmidt
-[N, p] = size(X);
-Q = zeros(N, p);
-R = zeros(p);
-for k = 1:p
+% Orthogonalisation of a Matrix by the Modified Gram-Schmidt
+[N, n] = size(X);
+Q = zeros(N, n);
+R = zeros(n);
+for k = 1:n
     Q(:, k) = X(:, k);
     for s = 1:k-1
         R(s, k) = Q(:, s)'*Q(:, k);
