@@ -1,5 +1,5 @@
 # fs_ols
-Orthogonal Least Squares Based Fast Feature Selection for Classification
+Orthogonal Least Squares Based Fast Feature Selection for Classification. 
 See the following paper for the detail.
 https://arxiv.org/abs/2101.08539
 
